@@ -10,6 +10,7 @@ git cloneした後、`npm install`を実行してください。
 > [!WARNING]
 > gitの設定が残っていると、クローン先のgitリポジトリにコミットされてしまうので、
 > `rm -rf .git`を実行して、gitの設定を削除してください。
+> または、`git remote remove origin`を実行して、リモートリポジトリの設定を削除してください。
 
 ## ビルド
 
